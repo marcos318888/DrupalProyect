@@ -121,3 +121,9 @@ This project is licensed under the MIT open source license.
 [wodby/webgrind]: https://hub.docker.com/r/wodby/webgrind
 [wodby/xhprof]: https://hub.docker.com/r/wodby/xhprof
 [zookeeper]: https://hub.docker.com/_/zookeeper
+
+## INSTALL
+* 0.- Need to have docker and composer installed
+* 1.- Clone this repo.
+* 2.- Run `docker compose up -d`
+* 3.- Go to  http://drupal.docker.localhost:8000
