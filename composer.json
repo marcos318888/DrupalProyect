@@ -1,0 +1,6 @@
+{
+    "require": {
+        "drupal/devel": "^5.3",
+        "drush/drush": "^13.3"
+    }
+}

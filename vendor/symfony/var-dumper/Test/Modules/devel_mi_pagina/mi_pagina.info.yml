@@ -1,0 +1,5 @@
+name: 'Mi Página'
+type: module
+description: 'Crea una página personalizada.'
+core_version_requirement: ^9 || ^10
+package: Custom

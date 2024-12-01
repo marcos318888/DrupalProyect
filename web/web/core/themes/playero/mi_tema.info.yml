@@ -1,0 +1,8 @@
+name: Mi Tema
+type: theme
+base theme: stable9
+description: 'Tema personalizado para mi proyecto.'
+core_version_requirement: ^10 || ^11
+
+libraries:
+  - mi_tema/global-styling

@@ -1,0 +1,7 @@
+mi_pagina.custom_page:
+  path: '/mi_pagina'
+  defaults:
+    _controller: '\Drupal\mi_pagina\Controller\MiPaginaController::content'
+    _title: 'Mi Página'
+  requirements:
+    _permission: 'access content'

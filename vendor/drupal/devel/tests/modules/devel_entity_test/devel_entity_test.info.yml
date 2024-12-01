@@ -1,0 +1,8 @@
+name: 'Devel entity test module'
+type: module
+description: 'Provides entity types for Devel tests.'
+package: Testing
+dependencies:
+  - drupal:field
+  - drupal:text
+  - drupal:entity_test

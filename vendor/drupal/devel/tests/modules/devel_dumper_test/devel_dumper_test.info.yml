@@ -1,0 +1,4 @@
+name: 'Devel dumper test module'
+type: module
+description: 'Test pluggable dumpers.'
+package: Testing

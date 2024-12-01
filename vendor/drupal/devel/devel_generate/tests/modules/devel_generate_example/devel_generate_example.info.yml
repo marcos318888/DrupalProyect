@@ -1,0 +1,7 @@
+name: 'Devel Generate Example'
+type: module
+description: 'Create an example of a Devel Generate plugin type for testing purposes.'
+package: Testing
+configure: admin/config/development/generate
+tags:
+  - developer
