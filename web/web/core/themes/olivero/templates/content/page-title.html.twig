@@ -24,3 +24,41 @@
   <h1{{ title_attributes.addClass(classes) }}>{{ title }}</h1>
 {% endif %}
 {{ title_suffix }}
+<body>
+
+  <header class="site-header">
+  <nav class="site-nav">
+    <h1>{{ site_name }}</h1>
+    <h1>Haz que tus objetivos se conviertan en realidad</h1>
+      {{ page.primary_menu }}
+  </nav>
+  <nav class="main-nav">
+        <ul>
+          <li><a href="/marketing" class="active">Marketing Digital</a></li>
+          <li><a href="/creatividad">Creatividad</a></li>
+          <li><a href="/eventos">Eventos</a></li>
+          <li><a href="/produccion">Producción</a></li>
+        </ul>
+    </nav>
+
+  </header>
+
+  <main class="site-content">
+    <h2>{{ title }}</h2>
+    <p>Bienvenido a la página de  la empresa MakkingOf</p>
+
+    {# Muestra un bloque dinámico si existe contenido en la región `content` #}
+    {% if page.content %}
+      <div class="main-content">
+        {{ page.content }}
+      </div>
+    {% else %}
+      <p>aqui se muestra el contenido con todas las partes y necesidades</p>
+    {% endif %}
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; {{ "now"|date("Y") }} {{ site_name }}. Esto es el footer.</p>
+  </footer>
+
+</body>
